@@ -1,0 +1,86 @@
+/* Definir um fundo escuro e fonte clara para o corpo da página */
+body {
+    background-color: #121212;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Definir um container para as páginas com uma borda e fundo claro */
+.container {
+    background-color: #f0d400;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px; /* Limitar largura para melhor responsividade */
+}
+
+/* Estilo para os títulos */
+h1, h2 {
+    color: #2c2c2c;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os links */
+a {
+    color: #4a4a4a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para os formulários */
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1em;
+    border: 2px solid #FFEB3B;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* Adicionar estilo ao botão */
+button {
+    background-color: #FFEB3B;
+    color: #121212;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #f1c40f;
+}
+
+/* Estilo para a lista de notas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Adicionar cor para os ícones de edição e deletação */
+a[href*="editar"] {
+    color: #3498db;
+}
+
+a[href*="deletar"] {
+    color: #e74c3c;
+}
+
+a[href*="editar"]:hover, a[href*="deletar"]:hover {
+    text-decoration: underline;
+}
